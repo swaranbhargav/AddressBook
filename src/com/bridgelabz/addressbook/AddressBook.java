@@ -9,7 +9,7 @@ public class AddressBook {
 
 		ArrayList<Contact> contacts = new ArrayList<>();
 
-		System.out.print("Enter the number of initial contacts to add: ");
+		System.out.print("Enter the number of  contacts to add to the Address Book : ");
 		int numContacts = input.nextInt();
 		input.nextLine();
 		for (int i = 1; i <= numContacts; i++) {
